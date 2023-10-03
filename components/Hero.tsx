@@ -1,4 +1,5 @@
 import CameraIcon from './icons/CameraIcon'
+import IgIcon from './icons/IgIcon'
 import RightArrowIcon from './icons/RightArrowIcon'
 import RightArrowIconLarge from './icons/RightArrowIconLarge'
 
@@ -7,13 +8,13 @@ const Hero = () => {
     <section className="bg-white dark:bg-gray-950">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <a
-          href="https://www.instagram.com/afriendlycracker/"
+          href="/blog"
           className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
         >
           <span className="text-xs bg-primary-400 rounded-full text-white px-4 py-1.5 mr-3">
-            ૮₍ • ᴥ • ₎ა
+            New
           </span>{' '}
-          <span className="text-sm font-medium">Support us on instagram!</span>
+          <span className="text-sm font-medium">Look at our latest post!</span>
           <RightArrowIcon />
         </a>
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
@@ -22,7 +23,7 @@ const Hero = () => {
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           This is an innovative project focused on cybersecurity education, where we tackle complex
           news and concepts but make them easily understandable, making online security a topic
-          accessible to all
+          accessible to all ૮₍ • ᴥ • ₎ა
         </p>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
@@ -36,8 +37,10 @@ const Hero = () => {
             href="https://www.instagram.com/afriendlycracker/"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
           >
-            <CameraIcon />
-            Watch video
+            <div className="mr-2">
+              <IgIcon />
+            </div>
+            Join us on IG
           </a>
         </div>
 

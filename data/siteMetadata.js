@@ -14,8 +14,6 @@ const siteMetadata = {
   email: 'nicol.eeemanuele@icloud.com',
   github: 'https://github.com/lyylaaa',
   twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/nicolemanuele',
   locale: 'en-US',
   analytics: {
