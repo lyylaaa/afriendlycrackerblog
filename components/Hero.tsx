@@ -2,6 +2,9 @@ import CameraIcon from './icons/CameraIcon'
 import IgIcon from './icons/IgIcon'
 import RightArrowIcon from './icons/RightArrowIcon'
 import RightArrowIconLarge from './icons/RightArrowIconLarge'
+import NewsIcon from './icons/NewsIcon'
+import LearnIcon from './icons/LearnIcon'
+import DiscoverIcon from './icons/DiscoverIcon'
 
 const Hero = () => {
   return (
@@ -47,36 +50,38 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row gap-14 text-left md:max-w-full max-w-sm m-auto">
           <div className="">
             <div className="flex flex-row">
-              <div className="p-1">
-                <CameraIcon />
+              <div className="p-1 mx-2">
+                <NewsIcon />
               </div>
               <div className="flex flex-col gap-3">
                 <h3 className="text-xl font-bold">News</h3>
-                <p>Host code that you don't want to share with the world in private.</p>
+                <p>Every weekend there will be news in the world of cybersecurity!</p>
               </div>
             </div>
           </div>
 
           <div className="">
             <div className="flex flex-row">
-              <div className="p-1">
-                <CameraIcon />
+              <div className="p-1 mx-2">
+                <DiscoverIcon />
               </div>
               <div className="flex flex-col gap-3">
                 <h3 className="text-xl font-bold">Discover</h3>
-                <p>Host code that you don't want to share with the world in private.</p>
+                <p>
+                  Read about technologies you've never heard of and share them with your friends!
+                </p>
               </div>
             </div>
           </div>
 
           <div className="">
             <div className="flex flex-row">
-              <div className="p-1">
-                <CameraIcon />
+              <div className="p-1 mx-2">
+                <LearnIcon />
               </div>
               <div className="flex flex-col gap-3">
-                <h3 className="text-xl font-bold">Other</h3>
-                <p>Host code that you don't want to share with the world in private.</p>
+                <h3 className="text-xl font-bold">Learn</h3>
+                <p>Learn computer science concepts in depth along with mathematics!</p>
               </div>
             </div>
           </div>
