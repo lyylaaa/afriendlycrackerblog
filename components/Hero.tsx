@@ -1,8 +1,8 @@
 import IgIcon from './icons/IgIcon'
 import RightArrowIcon from './icons/RightArrowIcon'
 import RightArrowIconLarge from './icons/RightArrowIconLarge'
-import LearnIcon from './icons/LearnIcon'
 import NewsIcon from './icons/NewsIcon'
+import LearnIcon from './icons/LearnIcon'
 import DiscoverIcon from './icons/DiscoverIcon'
 
 const Hero = () => {
