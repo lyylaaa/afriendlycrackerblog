@@ -1,10 +1,10 @@
-import CameraIcon from './icons/CameraIcon'
 import IgIcon from './icons/IgIcon'
 import RightArrowIcon from './icons/RightArrowIcon'
 import RightArrowIconLarge from './icons/RightArrowIconLarge'
 import LearnIcon from './icons/LearnIcon'
 import DiscoverIcon from './icons/DiscoverIcon'
 import NewsIcon from './icons/NewsIcon'
+
 const Hero = () => {
   return (
     <section className="bg-white dark:bg-gray-950">
