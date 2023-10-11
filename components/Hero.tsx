@@ -2,6 +2,7 @@ import IgIcon from './icons/IgIcon'
 import RightArrowIcon from './icons/RightArrowIcon'
 import RightArrowIconLarge from './icons/RightArrowIconLarge'
 import LearnIcon from './icons/LearnIcon'
+import NewsIcon from './icons/NewsIcon'
 import DiscoverIcon from './icons/DiscoverIcon'
 
 const Hero = () => {
@@ -48,7 +49,9 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row gap-14 text-left md:max-w-full max-w-sm m-auto">
           <div className="">
             <div className="flex flex-row">
-              <div className="p-1 mx-2"></div>
+              <div className="p-1 mx-2">
+                <NewsIcon />
+              </div>
               <div className="flex flex-col gap-3">
                 <h3 className="text-xl font-bold">News</h3>
                 <p>Every weekend there will be news in the world of cybersecurity!</p>
